@@ -1,48 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Libre+Barcode+39+Text&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   text-decoration: none; 
-   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
 }
 
-body{
+body {
     font-size: 100%;
 
-    
-    background-image: url(/IMG/background2.png) ;
-    background-position: center;  
+
+    background-image: url(/IMG/background2.png);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.cabeçalho{
-    display: flex; 
+.cabeçalho {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 18px;
     gap: 20px;
-    
+
 
 }
 
-.cabeçalho-img{
+.cabeçalho-img {
     height: 65px;
     filter: drop-shadow(1px 1px 45px #FCABB4);
 }
 
 
 
-.cabeçalho-menu{
+.cabeçalho-menu {
     display: flex;
     gap: 32px;
 }
 
-.cabeçalho-item{
+.cabeçalho-item {
     font-family: "Jersey 15", sans-serif;
     font-size: 25px;
     font-weight: 400;
@@ -50,25 +50,25 @@ body{
 
 }
 
-.conteudo{
-   margin-bottom: 48px;
-   border-top: 6px solid #FFF2E7;
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 6px solid #FFF2E7;
 }
 
-.cabecalho-escrito{
+.cabecalho-escrito {
     font-family: "Jersey 15", sans-serif;
     font-size: 40px;
     color: #FCABB4;
-    text-shadow: 
-    -4px -4px 0 #46362F,
-    4px -4px 0 #46362F,
-    -4px 4px 0 #46362F,
-    4px 4px 0 #46362F;
+    text-shadow:
+        -4px -4px 0 #46362F,
+        4px -4px 0 #46362F,
+        -4px 4px 0 #46362F,
+        4px 4px 0 #46362F;
     text-align: center;
     padding: 15px;
 }
 
-.conteudo-principal{
+.conteudo-principal {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -76,28 +76,28 @@ body{
     padding: 30px;
 }
 
-.principal-escrito{
+.principal-escrito {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 30px;
- 
+
 }
 
-.cp-subtitulo{
+.cp-subtitulo {
     font-family: "Jersey 15", sans-serif;
     font-size: 70px;
     color: #FCABB4;
-    text-shadow: 
-    -4px -4px 0 #46362F,
-    4px -4px 0 #46362F,
-    -4px 4px 0 #46362F,
-    4px 4px 0 #46362F;
-    
-    
+    text-shadow:
+        -4px -4px 0 #46362F,
+        4px -4px 0 #46362F,
+        -4px 4px 0 #46362F,
+        4px 4px 0 #46362F;
+
+
 }
 
-.cp-mensagem{
+.cp-mensagem {
     font-family: "Jersey 15", sans-serif;
     font-size: 30px;
     color: #ffffff;
@@ -105,70 +105,70 @@ body{
 
 
 
-.urso{
-    height: 200px ;
+.urso {
+    height: 200px;
     filter: drop-shadow(1px 1px 10px #c5b7b8);
 }
 
-.flor{
+.flor {
     height: 150px;
     filter: drop-shadow(1px 1px 45px #FCABB4);
 }
 
-.botao{
+.botao {
     background-color: #FCABB4;
     border-color: #46362F;
-    border-radius: 20px ;
+    border-radius: 20px;
     width: 180px;
     height: 30px;
     font-family: "Jersey 15", sans-serif;
     color: #46362F;
     font-size: 25px;
-    text-shadow: 
-    2px -2px 0 #ffffff,
-    2px -2px 0 #ffffff,
-    -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
+    text-shadow:
+        2px -2px 0 #ffffff,
+        2px -2px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff;
     cursor: pointer;
     filter: drop-shadow(1px 1px 50px #46362F);
-    
-    
-    
+
+
+
 }
 
-.conteudo-terciario{
-    display: flex; 
+.conteudo-terciario {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.aviso{
+.aviso {
     border-top: 6px solid #FFF2E7;
     padding: 15px;
     font-family: "Jersey 15", sans-serif;
     font-size: 40px;
     color: #FCABB4;
-    text-shadow: 
-    3px -3px 0 #ffffff,
-    3px -3px 0 #ffffff,
-    -2px 2px 0 #ffffff,
-    2px 2px 0 #ffffff;
+    text-shadow:
+        3px -3px 0 #ffffff,
+        3px -3px 0 #ffffff,
+        -2px 2px 0 #ffffff,
+        2px 2px 0 #ffffff;
     filter: drop-shadow(1px 1px 30px #FCABB4);
 }
 
-.mensagem{
+.mensagem {
     font-family: "Jersey 15", sans-serif;
     font-size: 30px;
-    color:#46362F;
+    color: #46362F;
     font-weight: 400;
-    text-align:center;
+    text-align: center;
     padding: 10px;
 
 }
 
-.rodape{
+.rodape {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -177,20 +177,20 @@ body{
 }
 
 
-.bolinho{
+.bolinho {
     height: 75px;
-    
+
 }
 
-.assinatura{
+.assinatura {
     font-family: "Jersey 15", sans-serif;
     font-size: 20px;
-    color:#46362F;
+    color: #46362F;
     font-weight: 400;
-    
+
 }
 
-.bonequinho{
+.bonequinho {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -198,8 +198,8 @@ body{
 
 }
 
-.boneco{
+.boneco {
     height: 200px;
     filter: drop-shadow(0px 0px 30px #FCABB4);
-}
 
+}
